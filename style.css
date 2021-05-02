@@ -1,0 +1,61 @@
+:root{
+  --positive-color: #c0c0c0;
+  --negative-color: #000000;
+  --secondary-color: #404040;
+}
+html {
+  padding: 0 1rem;
+}
+body {
+  background-color: var(--negative-color);
+  color: var(--positive-color);
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: auto;
+  max-width: 50rem;
+}
+h2 {
+  line-height: 1;
+}
+ul {
+  padding-left: 1.5rem;
+}
+a {
+  color: #2e80dd;
+}
+header > a {
+  font-weight: bold;
+  color: var(--positive-color);
+}
+header > h2 {
+  margin-bottom: 0;
+}
+header > p {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50rem;
+  padding: 0.2rem;
+}
+.menu > a {
+  border: 1px solid var(--positive-color);
+  color: var(--positive-color);
+  flex-grow: 1;
+  float: left;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  padding: 0.6rem;
+  text-align: center;
+  text-decoration: none;
+}
+:target, .menu :hover {
+  background-color: var(--secondary-color);
+}
+.menu > .active {
+  background-color: var(--positive-color);
+  color: var(--negative-color);
+}
