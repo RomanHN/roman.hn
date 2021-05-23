@@ -34,13 +34,13 @@ header > p {
   font-weight: bold;
   margin-bottom: 0;
 }
-.menu {
+nav {
   display: flex;
   flex-wrap: wrap;
   max-width: 50rem;
   padding: 0.2rem;
 }
-.menu > a {
+nav > a {
   border: 1px solid var(--positive-color);
   color: var(--positive-color);
   flex-grow: 1;
@@ -52,10 +52,10 @@ header > p {
   text-align: center;
   text-decoration: none;
 }
-:target, .menu :hover {
+:target, nav :hover {
   background-color: var(--secondary-color);
 }
-.menu > .active {
+nav > .active {
   background-color: var(--positive-color);
   color: var(--negative-color);
 }
