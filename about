@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Roman Hauksson-Neill's website</title>
+		<link rel="stylesheet" href="./style.css" type="text/css" media="all"/>
+		<link rel="icon" href="./icon.svg"/>
+	</head>
+	<body>
+		<h1>Roman Hauksson-Neill's website</h1>
+		<nav>
+			<a href="./">home</a>
+			<a href="./about.html" class="active">about</a>
+		</nav>
+		<h2>licensing</h2>
+		<p>Everything i publish here is licensed under either <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</a> or <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, where applicable. View the source of this website on <a href="https://github.com/RomanHN/RomanHN.github.io">GitHub</a>.</p>
+		<h2>Monero address</h2>
+		<p>44PDKDZJXgVQccmaxD7JL17mJGU5pSzjTcRytHGNWsKyGohQwSnoNgLJu4dBwhT5tpDf1wv81K6j7fx2jvTuFS4Y9s3qriS</p>
+		<h2>"What's with the capitalization?"</h2>
+		<p>I choose not to capitalize section headers when they aren't full sentences or proper nouns because i believe capitalization is a poor way of differentiating a piece of text as a title. This is because capitalization already has a variety of other uses, and so using it in titles can cause ambiguity. Why capitalize a title when formatting is a better way to show that it's a title?</p>
+		<p>I also don't think there's any reason to capitalize the word "i"; it's just like any other personal pronoun, yet it's the only one that's conventionally capitalized. This is a nonsensical convention that i feel the need to resist. Of course, this practice of mine excludes cases when "i" is capitalized for other reasons – for example, when it's the first word of a sentence.</p>
+	</body>
+</html>
