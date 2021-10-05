@@ -1,0 +1,165 @@
+{
+    "version": 9,
+    "randomSeed": "f92674911d95d2f71a6324f9953d1e7a",
+    "graph": {
+        "viewport": {
+            "xmin": -4,
+            "ymin": -2.7135930397084165,
+            "xmax": 4,
+            "ymax": 7.666729958320279
+        },
+        "squareAxes": false
+    },
+    "expressions": {
+        "list": [
+            {
+                "type": "text",
+                "id": "36",
+                "text": "https://roman.hn"
+            },
+            {
+                "type": "text",
+                "id": "28",
+                "text": "Newton's method is an algorithm for finding a root of a real-valued function. Given certain conditions, if you start with an initial approximation for a root, applying this method is guaranteed to result in a better approximation."
+            },
+            {
+                "type": "text",
+                "id": "30",
+                "text": "First, take a guess as to where a root of your equation could be. Then, find the local linear approximation at this point. Finally, your updated guess is the root of this local linear approximation."
+            },
+            {
+                "type": "text",
+                "id": "35",
+                "text": "In other words, draw the tangent line to the function at the point of your first approximation. Then, wherever this tangent line crosses the x-axis is your updated approximation."
+            },
+            {
+                "type": "expression",
+                "id": "1",
+                "color": "#000000",
+                "latex": "f\\left(x\\right)=2x^{3}-x^{2}-5x+3"
+            },
+            {
+                "type": "expression",
+                "id": "23",
+                "color": "#000000",
+                "latex": "a_{0}=-0.33",
+                "hidden": true,
+                "slider": {
+                    "hardMin": true,
+                    "hardMax": true,
+                    "min": "-2",
+                    "max": "2"
+                }
+            },
+            {
+                "type": "expression",
+                "id": "15",
+                "color": "#2d70b3",
+                "latex": "L\\left(x,\\ a\\right)=f'\\left(a\\right)\\left(x-a\\right)+f\\left(a\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "25",
+                "color": "#2d70b3",
+                "latex": "Z\\left(a\\right)=-\\frac{f\\left(a\\right)}{f'\\left(a\\right)}+a",
+                "hidden": true
+            },
+            {
+                "type": "expression",
+                "id": "26",
+                "color": "#388c46",
+                "latex": "a_{1}=Z\\left(a_{0}\\right)"
+            },
+            {
+                "type": "folder",
+                "id": "50",
+                "title": "rendering",
+                "collapsed": true
+            },
+            {
+                "type": "expression",
+                "id": "45",
+                "folderId": "50",
+                "color": "#388c46",
+                "latex": "x=a_{0}",
+                "lineStyle": "DASHED"
+            },
+            {
+                "type": "expression",
+                "id": "48",
+                "folderId": "50",
+                "color": "#388c46",
+                "latex": "\\left(a_{0},0\\right)",
+                "showLabel": true,
+                "label": "`a_{0}`",
+                "labelSize": "",
+                "labelOrientation": "below_left"
+            },
+            {
+                "type": "expression",
+                "id": "22",
+                "folderId": "50",
+                "color": "#2d70b3",
+                "latex": "L\\left(x,\\ a_{0}\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "27",
+                "folderId": "50",
+                "color": "#2d70b3",
+                "latex": "x=a_{1}",
+                "lineStyle": "DASHED"
+            },
+            {
+                "type": "expression",
+                "id": "42",
+                "folderId": "50",
+                "color": "#2d70b3",
+                "latex": "\\left(a_{1},0\\right)",
+                "showLabel": true,
+                "label": "`a_1`",
+                "dragMode": "NONE",
+                "labelOrientation": "below_left"
+            },
+            {
+                "type": "folder",
+                "id": "39",
+                "title": "second iteration",
+                "hidden": true,
+                "collapsed": true
+            },
+            {
+                "type": "expression",
+                "id": "40",
+                "folderId": "39",
+                "color": "#c74440",
+                "latex": "L\\left(x,a_{1}\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "43",
+                "folderId": "39",
+                "color": "#6042a6",
+                "latex": "a_{2}=Z\\left(a_{1}\\right)"
+            },
+            {
+                "type": "expression",
+                "id": "44",
+                "folderId": "39",
+                "color": "#c74440",
+                "latex": "x=a_{2}",
+                "lineStyle": "DASHED"
+            },
+            {
+                "type": "expression",
+                "id": "46",
+                "folderId": "39",
+                "color": "#c74440",
+                "latex": "\\left(a_{2},0\\right)",
+                "showLabel": true,
+                "label": "`a_2`",
+                "labelOrientation": "below_left"
+            }
+        ]
+    }
+}
