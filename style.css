@@ -42,6 +42,20 @@ nav a {
 	text-align: center;
 	text-decoration: none;
 }
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallery > a {
+	flex-grow: 1;
+	margin: 0;
+	padding: 0.4rem;
+	line-height: 1;
+	text-align: center;
+}
+.gallery > a > img {
+	max-width: 10rem;
+}
 :target, nav :hover {
 	background-color: var(--secondary-color);
 }
