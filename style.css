@@ -1,22 +1,22 @@
 :root{
-	--positive-color: #c0c0c0;
-	--negative-color: #000000;
-	--secondary-color: #404040;
+	--foreground-color: #c0c0c0;
+	--background-color: #000000;
+	--accent-color: #404040;
 }
 html {
 	padding: 0 1rem;
 }
 body {
-	background-color: var(--negative-color);
-	color: var(--positive-color);
+	background-color: var(--background-color);
+	color: var(--foreground-color);
 	font-family: sans-serif;
-	line-height: 1.4;
+	line-height: 1.4rem;
 	margin: auto;
 	max-width: 50rem;
 	word-wrap: break-word;
 }
 h2 {
-	line-height: 1;
+	line-height: 1rem;
 }
 ul {
 	padding-left: 1.5rem;
@@ -31,12 +31,12 @@ nav {
 	padding: 0.2rem;
 }
 nav a {
-	border: 1px solid var(--positive-color);
-	color: var(--positive-color);
+	border: 1px solid var(--foreground-color);
+	color: var(--foreground-color);
 	flex-grow: 1;
 	float: left;
 	font-weight: bold;
-	line-height: 1;
+	line-height: 1rem;
 	margin: 0;
 	padding: 0.6rem;
 	text-align: center;
@@ -49,17 +49,19 @@ nav a {
 .gallery > a {
 	flex-grow: 1;
 	margin: 0;
-	padding: 0.4rem;
 	line-height: 1;
-	text-align: center;
+	padding: 0.2rem;
 }
 .gallery > a > img {
+	max-height: 10rem;
+}
+.gallery > a > p {
 	max-width: 10rem;
 }
 :target, nav :hover {
-	background-color: var(--secondary-color);
+	background-color: var(--accent-color);
 }
 nav > .active {
-	background-color: var(--positive-color);
-	color: var(--negative-color);
+	background-color: var(--foreground-color);
+	color: var(--background-color);
 }
