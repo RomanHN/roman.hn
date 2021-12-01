@@ -3,6 +3,13 @@
 	--background-color: #000000;
 	--accent-color: #404040;
 }
+@font-face {
+	font-family: 'cool_s';
+	src: url('./creations/S_font/Cool_S.woff2') format('woff2'),
+	url('./creations/S_font/Cool_S.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 html {
 	padding: 0 1rem;
 }
@@ -65,4 +72,9 @@ nav a {
 nav > .active {
 	background-color: var(--foreground-color);
 	color: var(--background-color);
+}
+.cool {
+	font-family: Cool_S, sans-serif;
+	font-size: 80%;
+	line-height: 2.5;
 }
