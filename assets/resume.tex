@@ -1,0 +1,105 @@
+\setuplayout[
+header=0mm,
+footer=0mm,
+]
+\setuphead[title][
+	page=no,
+	after={\blank[0mm]},
+	style={\tfc\bold},
+]
+\setuphead[subject][
+	after={\blank[0mm]},
+	before={\blank[3mm]},
+	style={\tfb\bold},
+]
+\setuphead[subsubject][
+	after={\blank[0mm]},
+	before={\blank[2mm]},
+	style={\tf\bold},
+]
+
+
+\setupcolors[state=start]
+\definecolor[gray][x=dedede]
+\setupcolors[textcolor=gray]
+\setupbackgrounds[page][background=color,backgroundcolor=black]
+
+\setupinteraction[
+state=start,
+color=gray,
+]
+\useURL[website][https://roman.hn][][roman.hn]
+\useURL[GitHub][https://github.com/RomanHN][][github.com/RomanHN]
+\useURL[LinkedIn][https://www.linkedin.com/in/romanhn/][][linkedin.com/in/romanhn]
+
+\setuppagenumbering[location=none]
+\setupwhitespace[2mm]
+\setupbodyfont[modern,ss]
+\setupalign[nothyphenated]
+
+\starttext
+\title[title={Roman Hauksson-Neill}]
+
+\from[website]  \bullet \  \from[GitHub]  \bullet \  \from[LinkedIn]
+
+Looking for an internship during summer 2022 in software development, information technology, cybersecurity, or a related field. I live in Portland, Oregon.
+
+\subject[title={Education}]
+
+\startcolumns[n=2]
+\startitemize[joinedup]
+	\item Computer Science major at \\ the University of Texas at Dallas
+	\item National Merit Scholar
+	\item 1550 SAT score
+	\item 4.00 high school GPA
+	\item Full International Baccalaureate Diploma
+	\item Seal of Biliteracy in English and\\ Spanish
+\stopitemize
+\stopcolumns
+
+\subject[title={Achievements}]
+
+\subsubject[title={ACM Research Winner {\tt\small 2021 Sep – 2021 Nov}}]
+
+Trained a text prediction model using Tensorflow to analyze language trends on Twitter, with a team of four. Presented our research to a judging panel of professors and won versus five other teams.
+
+\subsubject[title={HackUTD VIII Winner {\tt\small 2021 Nov}}]
+
+Learned Flutter; designed and coded front end for an app to help international students. Worked with a team of four and won the Nebula API Challenge. 
+
+\subject[title={Leadership}]
+
+\subsubject[title={ACM Research Lead {\tt\small 2021 Dec – current}}]
+
+Designing a semester-long research project about generating targeted password guesses using machine learning. Will lead a group of four towards completion of a research poster and a presentation to a panel of professors.
+
+\subsubject[title={OpenUTD Officer {\tt\small 2021 Dec – current}}]
+
+Student organization for free and open-source software. We organize talks on topics related to technology, host coding nights, and give technical help on Discord.
+
+\subsubject[title={Boy Scouts of America Mentoring {\tt\small 2019 Nov – 2019 Dec, 2021 Jan – 2021 Apr}}]
+
+Mentored BSA scouts earning their Robotics Merit Badge. Taught them robotics principles and guided them through coding and testing Arduino programs.
+
+\subject[title={Technologies}]
+
+\startcolumns[n=3]
+\startitemize[joinedup]
+	\item HTML, CSS
+	\item Python scripting
+	\item C++ scripting
+	\item Bash scripting
+	\item Linux (daily use)
+	\item \LaTeX, \ConTeXt
+	\item Git, GitHub
+	\item Google Sheets
+\stopitemize
+\stopcolumns
+
+\subject[title={Work Experience}]
+
+\subsubject[title={Ride Operator at Oak's Amusement Park in Portland, OR {\tt\small 2021 Jun – 2021 Jul}}]
+
+Operated amusement park rides, conducted inspections, and ensured riders' safety.
+
+\stoptext

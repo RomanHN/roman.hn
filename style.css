@@ -37,10 +37,11 @@ nav {
 	max-width: 50rem;
 	padding: 0.2rem;
 }
-nav a {
+nav > a {
 	border: 1px solid var(--foreground-color);
 	color: var(--foreground-color);
 	flex-grow: 1;
+	flex: 1 1 0px;
 	float: left;
 	font-weight: bold;
 	line-height: 1rem;
@@ -66,7 +67,7 @@ nav a {
 .gallery > a > p {
 	max-width: 10rem;
 }
-:target, nav :hover {
+:target, nav :hover, .info :hover {
 	background-color: var(--accent-color);
 }
 nav > .active {
@@ -77,4 +78,27 @@ nav > .active {
 	font-family: Cool_S, sans-serif;
 	font-size: 80%;
 	line-height: 2.5;
+}
+.info-icon {
+	max-height: 1rem;
+	max-width: 1rem; 
+}
+.info {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 50rem;
+	padding: 0.2rem;
+	margin-top: 0.5rem;
+	align-items: center; 
+}
+.info > a {
+	flex-grow: 1;
+	flex: 1 1 0px;
+	clear: left;
+	line-height: 1rem;
+	margin: 0;
+	padding: 0.6rem;
+	text-align: center;
+	text-decoration: none;
+	color: var(--foreground-color);
 }
