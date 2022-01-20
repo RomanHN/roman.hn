@@ -102,3 +102,6 @@ nav > .active {
 	text-decoration: none;
 	color: var(--foreground-color);
 }
+.email {
+	max-height: 1rem;
+}
