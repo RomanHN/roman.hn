@@ -18,15 +18,11 @@ footer=0mm,
 	style={\tf\bold},
 ]
 
-
 \setupcolors[state=start]
-\definecolor[gray][x=dedede]
-\setupcolors[textcolor=gray]
-\setupbackgrounds[page][background=color,backgroundcolor=black]
 
 \setupinteraction[
 state=start,
-color=gray,
+color=black,
 ]
 \useURL[website][https://roman.hn][][roman.hn]
 \useURL[GitHub][https://github.com/RomanHN][][github.com/RomanHN]
@@ -40,20 +36,34 @@ color=gray,
 \starttext
 \title[title={Roman Hauksson-Neill}]
 
-\from[website]  \bullet \  \from[GitHub]  \bullet \  \from[LinkedIn]
-
-Looking for an internship during summer 2022 in software development, information technology, cybersecurity, or a related field. I live in Portland, Oregon.
+\from[website]  \bullet \  \from[GitHub]  \bullet \  \from[LinkedIn]  \bullet \ \bold{Portland, OR}
 
 \subject[title={Education}]
 
 \startcolumns[n=2]
 \startitemize[joinedup]
 	\item Computer Science major at \\ the University of Texas at Dallas
+	\item 3.929 GPA
 	\item National Merit Scholar
 	\item 1550 SAT score
 	\item 4.00 high school GPA
 	\item Full International Baccalaureate Diploma
 	\item Seal of Biliteracy in English and\\ Spanish
+\stopitemize
+\stopcolumns
+
+\subject[title={Technologies}]
+
+\startcolumns[n=3]
+\startitemize[joinedup]
+	\item HTML, CSS
+	\item Python scripting
+	\item C++ scripting
+	\item Bash scripting
+	\item Linux (daily use)
+	\item \LaTeX, \ConTeXt
+	\item Git, GitHub
+	\item Google Sheets
 \stopitemize
 \stopcolumns
 
@@ -80,21 +90,6 @@ Student organization for free and open-source software. We organize talks on top
 \subsubject[title={Boy Scouts of America Mentoring {\tt\small 2019 Nov – 2019 Dec, 2021 Jan – 2021 Apr}}]
 
 Mentored BSA scouts earning their Robotics Merit Badge. Taught them robotics principles and guided them through coding and testing Arduino programs.
-
-\subject[title={Technologies}]
-
-\startcolumns[n=3]
-\startitemize[joinedup]
-	\item HTML, CSS
-	\item Python scripting
-	\item C++ scripting
-	\item Bash scripting
-	\item Linux (daily use)
-	\item \LaTeX, \ConTeXt
-	\item Git, GitHub
-	\item Google Sheets
-\stopitemize
-\stopcolumns
 
 \subject[title={Work Experience}]
 
