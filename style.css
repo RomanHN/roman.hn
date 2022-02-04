@@ -1,6 +1,6 @@
 :root{
-	--foreground-color: #ffffff;
-	--background-color: #202020;
+	--background-color: #000000;
+	--foreground-color: #dedede;
 	--accent-color: #404040;
 }
 @font-face {
