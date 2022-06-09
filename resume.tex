@@ -9,24 +9,27 @@ footer=0mm,
 ]
 \setuphead[subject][
 	after={\blank[0mm]},
-	before={\blank[3mm]},
+	before={\blank[2.5mm]},
 	style={\tfb\bold},
 ]
 \setuphead[subsubject][
 	after={\blank[0mm]},
-	before={\blank[2mm]},
+	before={\blank[2.5mm]},
 	style={\tf\bold},
 ]
 
 \setupcolors[state=start]
+\setuptype[style={\switchtobodyfont[tt,0.917em]}]
 
 \setupinteraction[
 state=start,
 color=black,
 ]
 \useURL[website][https://roman.hn][][roman.hn]
-\useURL[GitHub][https://github.com/RomanHN][][github.com/RomanHN]
+\useURL[GitHub][https://github.com/romanhn][][github.com/romanhn]
 \useURL[LinkedIn][https://www.linkedin.com/in/romanhn/][][linkedin.com/in/romanhn]
+\useURL[email][mailto:local-part@domain.tld][][local-part@domain.tld]
+\useURL[phone][tel:+XXXXXXXXXXX][][+X (XXX) XXX-XXXX]
 
 \setuppagenumbering[location=none]
 \setupwhitespace[2mm]
@@ -36,65 +39,70 @@ color=black,
 \starttext
 \title[title={Roman Hauksson-Neill}]
 
-\from[website]  \bullet \  \from[GitHub]  \bullet \  \from[LinkedIn]  \bullet \ \bold{Portland, OR}
+\from[website] \ \bullet \ \ \from[GitHub] \ \bullet \ \ \from[LinkedIn]
+
+\from[email] \ \bullet \ \ \from[phone] \ \bullet \ \ \bold{Portland, OR}
 
 \subject[title={Education}]
 
 \startcolumns[n=2]
 \startitemize[joinedup]
-	\item Computer Science major at \\ the University of Texas at Dallas
-	\item 3.929 GPA
+	\item Class of 2025 at the University of Texas at Dallas
+	\item Pursuing Bachelor's in Computer Science
+	\item 3.556 GPA
 	\item National Merit Scholar
-	\item 1550 SAT score
-	\item 4.00 high school GPA
-	\item Full International Baccalaureate Diploma
-	\item Seal of Biliteracy in English and\\ Spanish
+	\item Collegium V Honors Student
 \stopitemize
 \stopcolumns
 
-\subject[title={Technologies}]
+\subject[title={Technologies and Languages}]
 
 \startcolumns[n=3]
 \startitemize[joinedup]
-	\item HTML, CSS
+	\item C++
 	\item Python scripting
-	\item C++ scripting
 	\item Bash scripting
-	\item Linux (daily use)
+	\item HTML, CSS
+	\item Linux
 	\item \LaTeX, \ConTeXt
 	\item Git, GitHub
 	\item Google Sheets
+	\item Spanish
 \stopitemize
 \stopcolumns
 
-\subject[title={Achievements}]
+\subject[title={Work Experience}]
 
-\subsubject[title={ACM Research Winner {\tt\small 2021 Sep – 2021 Nov}}]
+\subsubject[title={X-Force Fellowship (Software Engineering) {\tt\small 2022 Jun – 2022 Aug}}]
 
-Trained a text prediction model using Tensorflow to analyze language trends on Twitter, with a team of four. Presented our research to a judging panel of professors and won versus five other teams.
-
-\subsubject[title={HackUTD VIII Winner {\tt\small 2021 Nov}}]
-
-Learned Flutter; designed and coded front end for an app to help international students. Worked with a team of four and won the Nebula API Challenge. 
+Full-time software engineering contractor for the Joint Special Operations Command.
 
 \subject[title={Leadership}]
 
-\subsubject[title={ACM Research Lead {\tt\small 2021 Dec – current}}]
+\subsubject[title={ACM Research Director {\tt\small 2022 May – Current}}]
 
-Designing a semester-long research project about generating targeted password guesses using machine learning. Will lead a group of four towards completion of a research poster and a presentation to a panel of professors.
+Directing a program to help undergraduates get into computer science research. 6 teams of 5 participants create research projects throughout the semester and present their results during a presentation and poster contest.
 
-\subsubject[title={OpenUTD Officer {\tt\small 2021 Dec – current}}]
+\subsubject[title={ACM Research Lead {\tt\small 2021 Dec – 2022 Apr}}]
 
-Student organization for free and open-source software. We organize talks on topics related to technology, host coding nights, and give technical help on Discord.
+Lead 4 participants (\textasciitilde 13\% acceptance rate) through a project about generating targeted password guesses using GPT-3. Winning research team out of 6.
 
-\subsubject[title={Boy Scouts of America Mentoring {\tt\small 2019 Nov – 2019 Dec, 2021 Jan – 2021 Apr}}]
+\subsubject[title={OpenUTD Officer {\tt\small 2021 Dec – Current}}]
 
-Mentored BSA scouts earning their Robotics Merit Badge. Taught them robotics principles and guided them through coding and testing Arduino programs.
+Student organization for Linux and other free and open-source software. Organizing technology talks, hosting coding nights, and conducting outreach.
 
-\subject[title={Work Experience}]
+\subject[title={Achievements}]
 
-\subsubject[title={Ride Operator at Oak's Amusement Park in Portland, OR {\tt\small 2021 Jun – 2021 Jul}}]
+\subsubject[title={TexSAW 2022 CTF Winner {\tt\small 2022 Apr}}]
 
-Operated amusement park rides, conducted inspections, and ensured riders' safety.
+Won Capture The Flag competition with partner at cybersecurity conference.
+
+\subsubject[title={HackUTD VIII Winner {\tt\small 2021 Nov}}]
+
+Learned Flutter; helped design and code front end for an app to help international students, within 24 hours. Won the Nebula API Challenge with team of 4.
+
+\subsubject[title={ACM Research Winner {\tt\small 2021 Sep – 2021 Nov}}]
+
+Trained text prediction model using Tensorflow to analyze language trends on Twitter, with team of 4. Won research presentation contest vs. 5 other teams.
 
 \stoptext
