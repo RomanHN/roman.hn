@@ -1,61 +1,100 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: https://ogp.me/ns/website#">
-	<head>
-		<title>Roman Hauksson-Neill's website</title>
-		<meta charset="UTF-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" href="./style.css" type="text/css" media="all"/>
-		<link rel="icon" href="./icon.png"/>
-		<meta property="og:title" content="Roman Hauksson-Neill's website"/>
-		<meta property="og:type" content="website"/>
-		<meta property="og:locale" content="en_US"/>
-		<meta property="og:url" content="https://roman.hn"/>
-		<meta property="og:image:url" content="https://roman.hn//icon.png"/>
-		<meta property="og:image:type" content="image/png"/>
-		<meta property="og:image:width" content="512"/>
-		<meta property="og:image:height" content="512"/>
-		<meta property="og:image:alt" content="Roman's website icon: a gray letter 'R' on black."/>
-	</head>
-	<body>
-		<h1>Roman Hauksson-Neill</h1>
-		<div class="info">
-			<a href="./resume.pdf"><img src="./icons/resume.svg" alt="link to my resume"/></a>
-			<a href="https://github.com/RomanHN"><img src="./icons/GitHub.svg" alt="link to my GitHub profile"></a>
-			<a href="https://www.linkedin.com/in/romanhn/"><img src="./icons/LinkedIn.png" alt="link to my LinkedIn profile"/></a>
-		</div>
-		<p>Free software advocate, cybersecurity researcher, and Computer Science student at the University of Texas at Dallas. Email me at <img class="email" src="./email.svg" alt="hire at roman dot H-N"/>.</p>
-		<h2>creations</h2>
-		<h3>Desmos</h3>
-		<div class="gallery">
-			<a href="https://www.desmos.com/calculator/3lc2gz7xuh">
-				<img src="./creations/Desmos/thumbnails/Riemann_Sum.svg"/>
-				<p>Riemann Sum between two functions</p>
-			</a>
-			<a href="https://www.desmos.com/calculator/rwclrqmqc4">
-				<img src="./creations/Desmos/thumbnails/slope_field.svg"/>
-				<p>slope field visualizer</p>
-			</a>
-			<a href="https://www.desmos.com/calculator/4t6ougbtti">
-				<img src="./creations/Desmos/thumbnails/Newton's_Method.svg"/>
-				<p>Newton's Method</p>
-			</a>
-		</div>
-		<h3 class="cool" style="font-size: 100%">S font</h3>
-		<p class="cool">I created a font that recreates the look of that S symbol everyone has drawn but no one knows the origin of</p>
-		<p class="cool">Download it on <a href="https://fontstruct.com/fontstructions/show/1595139">FontStruct</a></p>
-		<h3>Extended Essay</h3>
-		<p>For the IB Diploma program, i wrote my Extended Essay about creating a system of equations to graph tangent lines to two circles. I also did a virtual presentation about the essay during my school's Extended Essay Showcase.</p>
-		<ul>
-			<li><a href="./creations/tangents/Extended_Essay.pdf">Extended Essay</a></li>
-			<li><a href="./creations/tangents/slideshow.pdf">presentation slideshow</a></li>
-			<li><a href="./creations/tangents/script.txt">presentation script</a></li>
-		</ul>
-	<h3>random</h3>
-		<ul>
-			<li><a href="./creations/popular_interests.svg">popular interests of CHS seniors</a> – My school sent out a survey to seniors, and one of the questions asked responders to list some of their interests. The anonymized responses were made public, so out of curiosity, i cleaned up the data and made a chart which shows what's most popular with the class of 2021.</li>
-			<li><a href="./creations/word_list.pdf">printable EFF second short word list</a> – The EFF (Electronic Frontier Foundation) created <a href="https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases">three lists of words</a> to be used to generate passphrases by rolling dice. This is a printable version of their second short word list, the one with the unique three-character prefixes. The words are separated into six pages with six columns each, easing the process of passphrase generation.</li>
-		</ul>
-		<h2>licensing</h2>
-		<p>Everything on this website is licensed under either <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</a> or <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, where applicable. View the source of this website on <a href="https://github.com/RomanHN/RomanHN.github.io">GitHub</a>.</p>
-	</body>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="./style.css" type="text/css" media="all"/>
+    <link rel="icon" href="./icon.png"/>
+    <meta property="og:title" content="Roman Hauksson-Neill's website"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:url" content="https://roman.hn"/>
+    <meta property="og:image:url" content="https://roman.hn/icon.png"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:image:width" content="512"/>
+    <meta property="og:image:height" content="512"/>
+    <meta property="og:image:alt" content="Roman's website icon: a gray letter 'R' on black."/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <header>
+        <img src="./Roman.jpg">
+        <div class="tagline">
+            <h1>Roman Hauksson-Neill</h1>
+            <p>Computer Science student, University of Texas at Dallas</p>
+            <menu>
+                <a href="./resume.pdf"><img src="https://roman.hn/icons/resume.svg" alt="link to my resume"/></a>
+                <a href="https://github.com/RomanHN"><img src="https://roman.hn/icons/GitHub.svg" alt="link to my GitHub profile"></a>
+                <a href="https://www.linkedin.com/in/romanhn/"><img src="https://roman.hn/icons/LinkedIn.png" alt="link to my LinkedIn profile"/></a>
+            </menu>
+        </div>
+    </header>
+
+    <section class="role"> <h2>I'm a leader.</h2>
+
+        <section class="experience"> <h3>ACM Research</h3><details class="experience">
+                <summary>Director <time>Fall 2022 – current</time></summary>
+                <p><a href="https://acmutd.co/research">ACM Research</a> is a project-based initiative to give undergraduate students Computer Science research experience. Each semester, four to six teams design and execute a research project and present their results at the Symposium Night. You can find past project repositories on our <a href="https://github.com/acm-research">GitHub page</a>.</p>
+            </details>
+
+            <details class="experience" id="password_guessing">
+                <summary>Lead: "Automating Targeted Password Guessing" <time>Spring 2022</time></summary>
+                <p>I led four participants through a <a href="https://github.com/ACM-Research/targeted-password-guesses">research project</a> about automatically predicting users' passwords based on information like their username and profile bio. In short, we fine-tuned a <a href="https://en.wikipedia.org/wiki/GPT-3">GPT-3</a> model on credentials from the <a href="https://en.wikipedia.org/wiki/Wattpad#June_2020_data_breach">Wattpad security breach</a>. This was the winning project out of six during the presentation/poster contest.</p>
+            </details>
+
+            <details class="experience">
+                <summary>Participant: "Analysis of Language Trends with a Mobile Keyboard Next-Word Prediction Model" <time>Fall 2021</time></summary>
+                <p><a href="https://github.com/ACM-Research/federated-learning-mobile-keyboard">Three other researchers and I</a> created text prediction models by training convolutional neural networks on Tweets from different subgroups on Twitter, like crypto bros and K-pop stans. This was also the winning project out of six during the presentation/poster contest.</p>
+            </details>
+
+        </section>
+
+        <details class="experience">
+            <summary>OpenUTD officer <time>Spring 2022 – current</time></summary>
+            <p><a href="https://openutd.club/">OpenUTD</a> is a student organization devoted to the teaching and advocacy of Linux and other free and open-source software. We host tech talks and coding nights.</p>
+        </details>
+
+        <details class="experience">
+            <summary>UTD Computer Security Group officer <time>Fall 2022 – current</time></summary>
+            <p><a href="https://discord.gg/czQ7cP6h5x">CSG</a> is a student organization for cybersecurity enthusiasts. We host tech talks and educational workshops, and attend monthly meetups at the <a href="https://www.meetup.com/Dallas-Hackers-Association">Dallas Hacker's Association</a>.</p>
+        </details>
+
+    </section>
+
+    <h2>I'm a hacker.</h2>
+
+    <details class="experience">
+        <summary>HOPE 2022 Talk: "We'll Pwn You with your Wattpad Profile" <time>July 2022</time></summary>
+        <p>At <a href="https://hope.net">Hackers On Planet Earth 2022</a>, I'll go beyond traditional password security education by showing the audience how and why exactly hackers might crack their password. I'll also showcase <a href="#password_guessing">my team's project</a> from ACM Research about automating targeted password guessing with GPT-3.</p>
+    </details>
+
+    <details class="experience">
+        <summary>1st place in TexSAW 2022 CTF competition <time>April 2022</time></summary>
+        <p>At <a href="https://csi.utdallas.edu/events/TexSAW-2022/">TexSAW 2022</a>, I learned hands-on skills in web security, reverse engineering, and system security before putting them to the test by winning the conference's Capture The Flag hacking competition with my partner Jay Challangi.</p>
+    </details>
+
+    <details class="experience">
+        <summary>Completed CodePath Cybersecurity course <time>Spring 2022</time></summary>
+        <p>I finished <a href="https://www.codepath.org/courses/cybersecurity">CodePath's 10-week course</a> covering the fundamentals of cybersecurity, common application vulnerabilities and attacks, and hands-on practice to explore both offensive and defensive strategies in information security.</p>
+    </details>
+
+    <h2>I'm a developer.</h2>
+    
+    <details class="experience">
+        <summary>X-Force software engineering fellowship <time>Summer 2022</time></summary>
+        <p>I'm working as a full-stack contractor for the Joint Special Operations Command. Primarily using React, Node.js, and Python.</p>
+    </details>
+
+    <details class="experience">
+        <summary>Winner of Nebula API Challenge at HackUTD VIII <time>November 2021</time></summary>
+        <p>During <a href="https://viii.hackutd.co/">a hackathon</a>, I helped write the Flutter front-end for <a href="https://devpost.com/software/fresh-off-the-plane"></a>an app</a> to help international students get accquainted at UT Dallas.</p>
+    </details>
+
+    <p>But most importantly, <b>I could be your intern ;).</b></p>
+
+    <a href="mailto:romanhn@pm.me" class="call_to_action">Reach out</a>
+</body>
 </html>
